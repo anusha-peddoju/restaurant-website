@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>payment</title>
+        <link rel="stylesheet" href="form1.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">   
+        
+    </head>
+    <body>
+    <div class="a">
+    <form name="myform" >
+    
+    
+    <h3 class="d">Details</h3>
+    <div class="a1">
+        <div class="a11">
+     <div class="name"><input type="text" class="name1" name="fn" placeholder="Full Name" required><br/></div>
+     <div class="email"><input type="text" class="email1" name="email" placeholder="Email Adress" required><br/></div>
+    <div class="pswd"><input type="password" class="pswd1" name="pass" placeholder="password" required><br/></div>
+    <div class="phn"><input type="number" class="phn1" name="phone" placeholder="phone no." required><br/></div>
+        </div>
+        <div class="a12">
+            <div class="adrs"><textarea rows="5" col="5" class="adrs1" name="address"placeholder="Enter your address here..." required></textarea><br/></div>
+        </div>
+    </div>
+    
+    <div class="g">
+        <h3 class="gd">Gender</h3>
+        <input type="radio" name="gender">  
+        <label class="gender">female</label> 
+        <input type="radio" name="gender">  
+        <label class="gender">male</label>  
+    </div>
+
+    <h3 class="pd">Payment Details</h3>
+    <div class="r">
+        <div class="r1">
+        <input type="radio" name="pay">  
+        <label class="pay">Phonepe</label>  <br/>
+        
+        <input type="radio" name="pay">  
+        <label class="pay">Googlepay </label><br/>
+        
+
+        <input type="radio" name="pay">  
+        <label class="pay">paytm</label> <br/> 
+        </div>
+        <div class="r2">
+        <input type="radio" name="pay">  
+        <label class="pay">credit card</label><br/>
+
+        <input type="radio" name="pay">  
+        <label class="pay">paypal</label> <br/>
+
+        <input type="radio" name="pay">  
+        <label class="pay">cash on delivery</label>  <br/>
+        </div>
+    </div>
+    <button type="submit" form="form1" value="Submit" onclick="validateform()">Submit</button>
+    </form>
+</div>
+<script src="form1.js"></script>
+
+    </body>
+</html>

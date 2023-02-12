@@ -1,0 +1,100 @@
+*{
+    margin:0px; 
+    font-size:15px;
+
+}
+body{
+    background-color:rgb(192, 189, 189);
+}
+
+.a
+{
+    border: 3px solid rgba(0, 0, 0, 0.63);
+    border-radius:10px;
+    padding:40px;
+    background-color: white;
+    margin-left:400px;
+    margin-right:400px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    background-color:white;
+}
+input
+{
+    font-size: 15px;
+    margin-top: 10px;
+   
+    text-align:center;
+    
+}
+.d,.gd,.pd{
+    font-family: "sofia";
+    margin-top: 10px;
+    margin-bottom:5px;
+    color:red;
+}
+
+.name1,.email1,.phn1,.pswd1
+{
+    height:30px;
+    border-radius:8px;
+    
+}
+.adrs1
+{
+    
+    text-align:center;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height:150px;
+    margin-left: 30px;
+}
+
+.a1
+{
+    display:flex;
+}
+
+.a11,.a12
+{
+    flex:50%;
+}
+.g
+{
+    font-size: 15px;
+    margin-top:10px;
+    font-family: "trirong";
+    
+}
+h3
+{
+    font-size:20px;
+    font-family: "trirong";
+}
+
+.r{
+    font-family: "Trirong";
+    display: flex;
+}
+
+.r1,.r2{
+
+    flex:50%;
+}
+
+button{
+    border-color:black;
+    font-size:medium;
+    margin-top:20px;
+    cursor:pointer;
+    border-radius:5px;
+    color:red;
+    font-family:"audiowide";
+    text-align:center;
+}
+
+button:hover{
+    color:green;
+    font-size: 18px;
+}
